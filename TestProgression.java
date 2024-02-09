@@ -1,8 +1,6 @@
-import java.text.ParseException;
-import java.util.jar.JarException;
 
 class TestProgression {
-    public static void main(String[] args) throws Exception, IllegalAccessError, JarException, ParseException {
+    public static void main(String[] args) {
 
         Progression prog;
         //arithmetic progression
@@ -26,5 +24,7 @@ class TestProgression {
         System.out.println("fibonacci progression the start values 4 and 6: ");
         prog = new FibonacciProgression(4,6);
         prog.printProgression(10);
+
+        System.out.println("wow");
     }
 }
